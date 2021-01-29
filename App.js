@@ -8,12 +8,12 @@ export default class App extends React.Component {
     return (
       <View style={styles.root}>
         <View style={styles.statusbar}>
-           <StatusBar style="light" />
+           <StatusBar style="dark" />
         </View>
         <View style={styles.browserContainer}>
           <WebView
           useWebKit = { true }
-          source={{ uri: 'https://ryong890314.github.io/app-lample/' }}
+          source={{ uri: 'https://ryong890314.github.io/app-rp/index.html' }}
           style={{ marginTop: 0 }}
          />
         </View>

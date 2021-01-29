@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <title>내 위치 공유 | LAMPLE</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./images/animate.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <s_t3>
+      <div id="wrap">
+        <!-- Header 영역 -->
+
+        <header id="header">
+          <div class="inner">
+            <div class="logo">
+              <a href="#">
+                <img src="./images/logo_white.png" alt="logo" />
+              </a>
+            </div>
+
+            <button type="button" class="mobile-menu"><span>메뉴</span></button>
+          </div>
+          <nav id="gnb">
+            <ul class="main_ul">
+              <li>
+                <a href="./main.html"><i class="fas fa-home"></i>메인화면</a>
+              </li>
+              <li>
+                <a href="./detail.html"
+                  ><i class="fas fa-chart-pie"></i>상세화면</a
+                >
+              </li>
+              <li>
+                <a href="./bluetooth.html"
+                  ><i class="fab fa-bluetooth"></i>블루투스 관리</a
+                >
+              </li>
+              <li>
+                <a href="./share.html"
+                  ><i class="fas fa-share-alt"></i>내 위치 공유</a
+                >
+              </li>
+              <li>
+                <a href="./setting.html"><i class="fas fa-cog"></i>환경설정</a>
+              </li>
+              <li>
+                <a href="./support.html"
+                  ><i class="fas fa-question-circle"></i>고객센터</a
+                >
+              </li>
+              <li>
+                <a href="./index.html"
+                  ><i class="fas fa-sign-out-alt"></i>로그아웃</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- // Header 영역 -->
+
+        <!-- Container 영역 -->
+
+        <section class="container">
+          <article id="content">
+            <!-- 메인화면 영역 -->
+
+            <s_cover_group>
+              <s_cover_rep>
+                <s_cover name="main-panel-1">
+                  <div class="content_box">
+                    <div class="title">
+                      <h1>내 위치 공유</h1>
+                    </div>
+
+                    <ul class="item_ul">
+                      <li
+                        class="item_li animate__animated animate__fadeInRight animate__fast"
+                      >
+                        <div class="item_info">
+                          <div class="text">
+                            <h2>내 위치 공유</h2>
+                          </div>
+                        </div>
+
+                        <ul class="data_ul">
+                          <li class="data_li top">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6469.990303352676!2d128.75418386066235!3d35.824594665331816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35660c1f5a655ea9%3A0x4cbf5bac40350904!2z6rK97IOB67aB64-EIOqyveyCsOyLnCDsgrztko3rj5k!5e0!3m2!1sko!2skr!4v1605495888493!5m2!1sko!2skr" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                          </li>
+                        </ul>
+                        <input
+                          type="button"
+                          class="form_button white margin_top_10"
+                          value="공유하기"
+                          onclick="share()"
+                        />
+                      </li>
+                    </ul>
+                  </div>
+                </s_cover>
+              </s_cover_rep>
+            </s_cover_group>
+          </article>
+        </section>
+
+        <!-- footer 영역 -->
+
+        <footer id="footer">
+          <div class="footer_container">
+            <div class="footer_info">
+              <p class="copy">
+                Copyright ⓒ <strong>LAMPLE</strong> All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </footer>
+
+        <!-- // footer 영역 -->
+      </div>
+      <script src="./images/script.js"></script>
+      <script>
+        function share() {
+          alert("내 위치가 공유되었습니다.");
+        }
+      </script>
+    </s_t3>
+  </body>
+</html>
